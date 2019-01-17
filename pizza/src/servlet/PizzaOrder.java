@@ -30,6 +30,8 @@ public class PizzaOrder extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		//String printMe = (String)session.getAttribute("printMe");
+		
 		String order = request.getParameter("mydata");
 		response.getWriter()
 		.append("<html>")
@@ -48,7 +50,7 @@ public class PizzaOrder extends HttpServlet {
 		HttpSession session = request.getSession(true);
 		session.setAttribute("Order",request.toString());
 		//HttpServletRequest session = request.getSession(true);
-		order = (String)session.getAttribute("Order");
+		(String)session.getAttribute("Order");
 		//response.getWriter().append(order);
 
 

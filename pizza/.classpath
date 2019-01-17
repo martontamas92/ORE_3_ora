@@ -13,5 +13,11 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="var" path="GLASSFISH"/>
+	<classpathentry kind="var" path="GLASSFISH/glassfish/modules/javax.servlet-api.jar"/>
+	<classpathentry kind="var" path="GLASSFISH/glassfish/modules/javax.servlet.jsp-api.jar"/>
+	<classpathentry kind="var" path="GLASSFISH/glassfish/modules/javax.servlet.jsp.jar"/>
+	<classpathentry kind="var" path="GLASSFISH/glassfish/modules/javax.servlet.jsp.jstl-api.jar"/>
+	<classpathentry kind="var" path="GLASSFISH/glassfish/modules/javax.servlet.jsp.jstl.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
